@@ -5,13 +5,48 @@ on: [push]
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     
     steps:
     - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        Get-ChildItem ".\" -Filter *.aseprite | Foreach-Object {
+          $name = $_.Name
+          .\asesprite\Aseprite.exe --batch --sheet a.png $_.FullName | Out-Null
+
+          $ErrorActionPreference = 'Stop'
+          $fieldName = 'file'
+          $filePath = '.\a.png'
+          $url = 'https://discordapp.com/api/webhooks/618921911031693322/Y4au4GefiYelL3xFIZFrpVTifCZkVYVlIZtI2LIWxhPN08vRnjZo35Tibsq1_eEFc7Lw';
+
+          Try {
+            Add-Type -AssemblyName 'System.Net.Http'
+
+            $client = New-Object System.Net.Http.HttpClient
+            $content = New-Object System.Net.Http.MultipartFormDataContent
+            $fileStream = [System.IO.File]::OpenRead($filePath)
+            $fileName = [System.IO.Path]::GetFileName($filePath)
+            $fileContent = New-Object System.Net.Http.StreamContent($fileStream)
+            $content.Add($fileContent, $fieldName, $fileName)
+            $a = New-Object System.Net.Http.StringContent("{`"embeds`": [{`"title`": `"$name`"}]}");
+
+            $content.Add($a, 'payload_json')
+
+            $result = $client.PostAsync($url, $content).Result
+            $result.EnsureSuccessStatusCode()
+          }
+          Catch {
+            Write-Error $_
+            exit 1
+          }
+          Finally {
+            if ($client -ne $null) { $client.Dispose() }
+            if ($content -ne $null) { $content.Dispose() }
+            if ($fileStream -ne $null) { $fileStream.Dispose() }
+            if ($fileContent -ne $null) { $fileContent.Dispose() }
+          }
+
+          echo 1
+        }
+      shell: powershell
