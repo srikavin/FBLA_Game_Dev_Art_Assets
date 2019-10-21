@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Run a multi-line script
       run: |
-        Get-ChildItem ".\" -Filter *.aseprite | Foreach-Object {
+        Get-ChildItem ".\" -Recurse -Filter *.aseprite | Foreach-Object {
           $name = $_.Name
           .\asesprite\Aseprite.exe --batch --sheet a.png $_.FullName | Out-Null
 
