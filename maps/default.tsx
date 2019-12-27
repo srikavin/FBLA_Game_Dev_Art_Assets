@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="200" columns="0">
+<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="204" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="4">
   <image width="70" height="70" source="../graphics/tiles/box.png"/>
@@ -600,5 +600,17 @@
  </tile>
  <tile id="224">
   <image width="1024" height="400" source="../graphics/backgrounds/mountains.png"/>
+ </tile>
+ <tile id="229">
+  <image width="378" height="153" source="../graphics/car/Car_1.png"/>
+ </tile>
+ <tile id="230">
+  <image width="423" height="126" source="../graphics/car/Car_2.png"/>
+ </tile>
+ <tile id="232">
+  <image width="288" height="117" source="../graphics/car/Car_3.png"/>
+ </tile>
+ <tile id="233">
+  <image width="238" height="175" source="../graphics/entity/Bulletin_Board.png"/>
  </tile>
 </tileset>

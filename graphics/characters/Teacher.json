@@ -1,74 +1,74 @@
 { "frames": [
    {
     "filename": "Teacher 0.aseprite",
-    "frame": { "x": 0, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 0, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 1.aseprite",
-    "frame": { "x": 64, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 47, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 2.aseprite",
-    "frame": { "x": 128, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 94, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 3.aseprite",
-    "frame": { "x": 192, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 141, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 4.aseprite",
-    "frame": { "x": 256, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 188, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 5.aseprite",
-    "frame": { "x": 320, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 235, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 6.aseprite",
-    "frame": { "x": 384, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 282, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    },
    {
     "filename": "Teacher 7.aseprite",
-    "frame": { "x": 448, "y": 0, "w": 64, "h": 64 },
+    "frame": { "x": 329, "y": 0, "w": 47, "h": 58 },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 64, "h": 64 },
-    "sourceSize": { "w": 64, "h": 64 },
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 47, "h": 58 },
+    "sourceSize": { "w": 47, "h": 58 },
     "duration": 100
    }
  ],
@@ -77,7 +77,7 @@
   "version": "1.2.13-x64",
   "image": "Teacher.png",
   "format": "RGBA8888",
-  "size": { "w": 512, "h": 64 },
+  "size": { "w": 376, "h": 58 },
   "scale": "1",
   "frameTags": [
   ],
