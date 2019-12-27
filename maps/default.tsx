@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="281" tileheight="224" tilecount="180" columns="0">
+<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="200" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="4">
   <image width="70" height="70" source="../graphics/tiles/box.png"/>
@@ -540,5 +540,65 @@
  </tile>
  <tile id="184">
   <image width="70" height="70" source="../graphics/tiles/window.png"/>
+ </tile>
+ <tile id="205">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundCastles.png"/>
+ </tile>
+ <tile id="206">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundColorDesert.png"/>
+ </tile>
+ <tile id="207">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundColorFall.png"/>
+ </tile>
+ <tile id="208">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundColorForest.png"/>
+ </tile>
+ <tile id="209">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundColorGrass.png"/>
+ </tile>
+ <tile id="210">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundDesert.png"/>
+ </tile>
+ <tile id="211">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundEmpty.png"/>
+ </tile>
+ <tile id="212">
+  <image width="1024" height="1024" source="../graphics/backgrounds/backgroundForest.png"/>
+ </tile>
+ <tile id="213">
+  <image width="1024" height="400" source="../graphics/backgrounds/cloudLayer1.png"/>
+ </tile>
+ <tile id="214">
+  <image width="1024" height="400" source="../graphics/backgrounds/cloudLayer2.png"/>
+ </tile>
+ <tile id="215">
+  <image width="1024" height="400" source="../graphics/backgrounds/cloudLayerB1.png"/>
+ </tile>
+ <tile id="216">
+  <image width="1024" height="400" source="../graphics/backgrounds/cloudLayerB2.png"/>
+ </tile>
+ <tile id="217">
+  <image width="1024" height="400" source="../graphics/backgrounds/groundLayer1.png"/>
+ </tile>
+ <tile id="218">
+  <image width="1024" height="200" source="../graphics/backgrounds/groundLayer2.png"/>
+ </tile>
+ <tile id="219">
+  <image width="1024" height="400" source="../graphics/backgrounds/hills.png"/>
+ </tile>
+ <tile id="220">
+  <image width="1024" height="400" source="../graphics/backgrounds/hillsLarge.png"/>
+ </tile>
+ <tile id="221">
+  <image width="356" height="352" source="../graphics/backgrounds/mountainA.png"/>
+ </tile>
+ <tile id="222">
+  <image width="340" height="278" source="../graphics/backgrounds/mountainB.png"/>
+ </tile>
+ <tile id="223">
+  <image width="306" height="444" source="../graphics/backgrounds/mountainC.png"/>
+ </tile>
+ <tile id="224">
+  <image width="1024" height="400" source="../graphics/backgrounds/mountains.png"/>
  </tile>
 </tileset>
