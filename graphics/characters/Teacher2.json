@@ -1,0 +1,90 @@
+{ "frames": [
+   {
+    "filename": "Teacher2 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 1.aseprite",
+    "frame": { "x": 30, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 2.aseprite",
+    "frame": { "x": 60, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 3.aseprite",
+    "frame": { "x": 90, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 4.aseprite",
+    "frame": { "x": 120, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 5.aseprite",
+    "frame": { "x": 150, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 6.aseprite",
+    "frame": { "x": 180, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   },
+   {
+    "filename": "Teacher2 7.aseprite",
+    "frame": { "x": 210, "y": 0, "w": 30, "h": 54 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 30, "h": 54 },
+    "sourceSize": { "w": 30, "h": 54 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.13-x64",
+  "image": "Teacher2.png",
+  "format": "RGBA8888",
+  "size": { "w": 240, "h": 54 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}
