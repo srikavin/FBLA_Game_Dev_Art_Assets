@@ -147,6 +147,8 @@
   </object>
   <object id="29" x="2815.67" y="785.666" width="238" height="175.167">
    <properties>
+    <property name="message" value="Meet with a college class and recruit a pro-division member!"/>
+    <property name="subtype" value="text"/>
     <property name="type" value="interactive"/>
    </properties>
   </object>

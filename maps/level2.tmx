@@ -146,6 +146,8 @@
   </object>
   <object id="29" x="2560" y="785.333" width="238" height="175.167">
    <properties>
+    <property name="message" value="Take a quick quiz on FBLA knowledge!"/>
+    <property name="subtype" value="text"/>
     <property name="type" value="interactive"/>
    </properties>
   </object>

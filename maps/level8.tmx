@@ -194,6 +194,8 @@
   </object>
   <object id="29" x="2880.28" y="784.757" width="238" height="175.167">
    <properties>
+    <property name="message" value="Make a brochure online for the NLC!"/>
+    <property name="subtype" value="text"/>
     <property name="type" value="interactive"/>
    </properties>
   </object>

@@ -181,6 +181,8 @@
   </object>
   <object id="29" x="2752" y="785.333" width="238" height="175.167">
    <properties>
+    <property name="message" value="Choose the correct ideas for the social media graphic!"/>
+    <property name="subtype" value="text"/>
     <property name="type" value="interactive"/>
    </properties>
   </object>

@@ -170,6 +170,8 @@
   </object>
   <object id="29" x="2560" y="785.333" width="238" height="175.167">
    <properties>
+    <property name="message" value="Go to a car wash! Collect sponges to use to clean the car, but be careful for trash!"/>
+    <property name="subtype" value="text"/>
     <property name="type" value="interactive"/>
    </properties>
   </object>
