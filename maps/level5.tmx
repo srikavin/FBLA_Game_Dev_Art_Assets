@@ -184,7 +184,8 @@
   </object>
   <object id="29" x="2752" y="785.333" width="238" height="175.167">
    <properties>
-    <property name="message" value="Correctly fill out an online application for your dream job!"/>
+    <property name="message">Correctly fill out an online application for your dream job!
+The water's filling up the cave! Watch out for invisible enemies!</property>
     <property name="subtype" value="text"/>
     <property name="type" value="interactive"/>
    </properties>
