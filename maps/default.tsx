@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="207" columns="0">
+<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="209" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="4">
   <image width="64" height="64" source="../graphics/tiles/box.png"/>
@@ -613,13 +613,19 @@
  <tile id="233">
   <image width="238" height="175" source="../graphics/entity/Bulletin_Board.png"/>
  </tile>
- <tile id="234">
-  <image width="960" height="720" source="../graphics/buttons/End_screen.png"/>
+ <tile id="241">
+  <image width="996" height="798" source="../graphics/titlelogo.png"/>
  </tile>
- <tile id="238">
+ <tile id="242">
   <image width="480" height="180" source="../graphics/buttons/Exit.png"/>
  </tile>
- <tile id="239">
+ <tile id="243">
   <image width="468" height="168" source="../graphics/buttons/Start.png"/>
+ </tile>
+ <tile id="246">
+  <image width="600" height="140" source="../graphics/buttons/Instructions.png"/>
+ </tile>
+ <tile id="247">
+  <image width="960" height="720" source="../graphics/buttons/End_screen.png"/>
  </tile>
 </tileset>
