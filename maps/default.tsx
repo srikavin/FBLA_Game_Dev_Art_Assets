@@ -634,13 +634,13 @@
  <tile id="258">
   <image width="78" height="64" source="../graphics/entity/Enemy.png"/>
  </tile>
- <tile id="260">
-  <image width="44" height="118" source="../graphics/characters/Friend.png"/>
- </tile>
  <tile id="261">
   <image width="94" height="116" source="../graphics/characters/Teacher.png"/>
  </tile>
  <tile id="262">
   <image width="60" height="108" source="../graphics/characters/Teacher2.png"/>
+ </tile>
+ <tile id="263">
+  <image width="22" height="59" source="../graphics/characters/Friend.png"/>
  </tile>
 </tileset>
