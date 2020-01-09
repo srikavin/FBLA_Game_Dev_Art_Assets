@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="213" columns="0">
+<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="214" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="4">
   <image width="64" height="64" source="../graphics/tiles/box.png"/>
@@ -639,5 +639,8 @@
  </tile>
  <tile id="255">
   <image width="90" height="162" source="../graphics/characters/Teacher2.png"/>
+ </tile>
+ <tile id="258">
+  <image width="78" height="64" source="../graphics/entity/Enemy.png"/>
  </tile>
 </tileset>
