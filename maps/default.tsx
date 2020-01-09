@@ -628,19 +628,19 @@
  <tile id="247">
   <image width="960" height="720" source="../graphics/buttons/End_screen.png"/>
  </tile>
- <tile id="252">
-  <image width="66" height="177" source="../graphics/characters/Friend.png"/>
- </tile>
- <tile id="253">
-  <image width="141" height="174" source="../graphics/characters/Teacher.png"/>
- </tile>
  <tile id="254">
   <image width="72" height="108" source="../graphics/characters/ProDivMem.png"/>
  </tile>
- <tile id="255">
-  <image width="90" height="162" source="../graphics/characters/Teacher2.png"/>
- </tile>
  <tile id="258">
   <image width="78" height="64" source="../graphics/entity/Enemy.png"/>
+ </tile>
+ <tile id="260">
+  <image width="44" height="118" source="../graphics/characters/Friend.png"/>
+ </tile>
+ <tile id="261">
+  <image width="94" height="116" source="../graphics/characters/Teacher.png"/>
+ </tile>
+ <tile id="262">
+  <image width="60" height="108" source="../graphics/characters/Teacher2.png"/>
  </tile>
 </tileset>
