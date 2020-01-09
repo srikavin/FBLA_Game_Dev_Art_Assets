@@ -5,6 +5,12 @@ com.badlogic.gdx.graphics.Color: {
 		g: 1
 		b: 1
 		a: 1
+	},
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
 	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
@@ -13,10 +19,24 @@ com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
 		down: blue_pressed
 		disabled: grey_pressed
 	}
+	red: {
+		up: red
+		down: red_pressed
+		disabled: grey_pressed
+	}
+	green: {
+		up: green
+		down: green_pressed
+		disabled: grey_pressed
+	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
 	default: {
 		font: KenneyPixel
+	}
+	black: {
+		font: KenneyPixel
+		fontColor: black
 	}
 }
 com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
@@ -33,5 +53,9 @@ com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
 	default: {
 		label: default
 	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: { titleFont: KenneyPixel, background: grey, titleFontColor: black },
+	dialog: { titleFont: KenneyPixel, background: grey, titleFontColor: black, stageBackground: blue }
 }
 }
