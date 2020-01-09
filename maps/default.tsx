@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="209" columns="0">
+<tileset version="1.2" tiledversion="1.3.1" name="default" tilewidth="1024" tileheight="1024" tilecount="213" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="4">
   <image width="64" height="64" source="../graphics/tiles/box.png"/>
@@ -627,5 +627,17 @@
  </tile>
  <tile id="247">
   <image width="960" height="720" source="../graphics/buttons/End_screen.png"/>
+ </tile>
+ <tile id="252">
+  <image width="66" height="177" source="../graphics/characters/Friend.png"/>
+ </tile>
+ <tile id="253">
+  <image width="141" height="174" source="../graphics/characters/Teacher.png"/>
+ </tile>
+ <tile id="254">
+  <image width="72" height="108" source="../graphics/characters/ProDivMem.png"/>
+ </tile>
+ <tile id="255">
+  <image width="90" height="162" source="../graphics/characters/Teacher2.png"/>
  </tile>
 </tileset>
