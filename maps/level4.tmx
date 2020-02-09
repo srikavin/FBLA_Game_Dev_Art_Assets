@@ -234,7 +234,7 @@
     <property name="type" value="minigame"/>
    </properties>
   </object>
-  <object id="126" x="1152" y="1152" width="77" height="64">
+  <object id="126" x="1152" y="1163.33" width="63.6667" height="52.6667">
    <properties>
     <property name="type" value="damage"/>
    </properties>

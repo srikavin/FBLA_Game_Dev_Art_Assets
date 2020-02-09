@@ -223,6 +223,23 @@ atlasData: {
 			customized: false
 			tenPatchData: null
 		}
+		{
+			file: C:/Users/spook/Desktop/FBLAGame/core/assets/assets/graphics/ui/dark-filter.9.png
+			bgColor: {
+				r: 1
+				g: 1
+				b: 1
+				a: 1
+			}
+			tint: null
+			tintName: null
+			name: dark-filter
+			tiled: false
+			minWidth: -1
+			minHeight: -1
+			customized: false
+			tenPatchData: null
+		}
 	]
 	fontDrawables: []
 }

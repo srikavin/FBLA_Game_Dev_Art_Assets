@@ -4,9 +4,17 @@ size: 256,256
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
+dark-filter
+  rotate: false
+  xy: 1, 51
+  size: 64, 64
+  split: 0, 0, 0, 0
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
 menu-button-bg
   rotate: false
-  xy: 1, 167
+  xy: 1, 183
   size: 64, 64
   split: 0, 0, 0, 0
   orig: 64, 64
@@ -14,7 +22,7 @@ menu-button-bg
   index: -1
 menu-button-checked-bg
   rotate: false
-  xy: 1, 101
+  xy: 1, 117
   size: 64, 64
   split: 2, 2, 2, 2
   orig: 64, 64
@@ -22,7 +30,7 @@ menu-button-checked-bg
   index: -1
 menu-button-over-bg
   rotate: false
-  xy: 67, 167
+  xy: 67, 183
   size: 64, 64
   split: 0, 0, 0, 0
   orig: 64, 64
@@ -30,7 +38,7 @@ menu-button-over-bg
   index: -1
 blue
   rotate: false
-  xy: 1, 51
+  xy: 67, 133
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -38,7 +46,7 @@ blue
   index: -1
 blue_pressed
   rotate: false
-  xy: 67, 117
+  xy: 133, 199
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -46,7 +54,7 @@ blue_pressed
   index: -1
 green
   rotate: false
-  xy: 133, 183
+  xy: 1, 1
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -54,7 +62,7 @@ green
   index: -1
 green_pressed
   rotate: false
-  xy: 1, 1
+  xy: 67, 83
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -62,7 +70,7 @@ green_pressed
   index: -1
 grey
   rotate: false
-  xy: 183, 183
+  xy: 183, 199
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -70,7 +78,7 @@ grey
   index: -1
 grey_pressed
   rotate: false
-  xy: 51, 51
+  xy: 67, 33
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -78,7 +86,7 @@ grey_pressed
   index: -1
 red
   rotate: false
-  xy: 51, 1
+  xy: 117, 133
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -86,7 +94,7 @@ red
   index: -1
 red_pressed
   rotate: false
-  xy: 117, 117
+  xy: 117, 83
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -94,7 +102,7 @@ red_pressed
   index: -1
 yellow
   rotate: false
-  xy: 101, 67
+  xy: 117, 33
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
@@ -102,7 +110,7 @@ yellow
   index: -1
 yellow_pressed
   rotate: false
-  xy: 101, 17
+  xy: 167, 149
   size: 48, 48
   split: 3, 3, 3, 5
   orig: 48, 48
