@@ -1,61 +1,85 @@
 {
-com.badlogic.gdx.graphics.Color: {
-	white: {
-		r: 1
-		g: 1
-		b: 1
-		a: 1
+"com.badlogic.gdx.graphics.Color": {
+	"white": {
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 1
 	},
-	black: {
-		r: 0
-		g: 0
-		b: 0
-		a: 1
+	"black": {
+		"r": 0,
+		"g": 0,
+		"b": 0,
+		"a": 1
 	}
-}
-com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
-	default: {
-		up: blue
-		down: blue_pressed
-		disabled: grey_pressed
+},
+	"com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+		"default": {
+			"up": "blue",
+			"down": "blue_pressed",
+			"disabled": "grey_pressed"
+		},
+		"red": {
+			"up": "red",
+			"down": "red_pressed",
+			"disabled": "grey_pressed"
+		},
+		"green": {
+			"up": "green",
+			"down": "green_pressed",
+			"disabled": "grey_pressed"
+		},
+		"menu": {
+			"down": "menu-button-checked-bg",
+			"over": "menu-button-over-bg",
+			"checked": "menu-button-checked-bg"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+		"default": {
+			"font": "defaultFont"
+		},
+		"black": {
+			"font": "defaultFont",
+			"fontColor": "black"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+		"default": {
+			"parent": "default",
+			"font": "defaultFont",
+			"fontColor": "white",
+			"up": "blue",
+			"down": "blue_pressed",
+			"disabled": "grey_pressed"
+		},
+		"menu": {
+			"font": "defaultFont",
+			"fontColor": "white",
+			"down": "menu-button-checked-bg",
+			"over": "menu-button-over-bg",
+			"focused": "menu-button-bg",
+			"checked": "menu-button-checked-bg",
+			"checkedOver": "menu-button-checked-bg",
+			"checkedFocused": "menu-button-checked-bg"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
+		"default": {
+			"label": "default"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {
+		"default": {
+			"background": "grey",
+			"titleFont": "defaultFont",
+			"titleFontColor": "black"
+		},
+		"dialog": {
+			"background": "grey",
+			"titleFont": "defaultFont",
+			"titleFontColor": "black",
+			"stageBackground": "blue"
+		}
 	}
-	red: {
-		up: red
-		down: red_pressed
-		disabled: grey_pressed
-	}
-	green: {
-		up: green
-		down: green_pressed
-		disabled: grey_pressed
-	}
-}
-com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
-	default: {
-		font: KenneyPixel
-	}
-	black: {
-		font: KenneyPixel
-		fontColor: black
-	}
-}
-com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
-	default: {
-		parent: default
-		font: KenneyPixel
-		fontColor: white
-		up: blue
-		down: blue_pressed
-		disabled: grey_pressed
-	}
-}
-com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
-	default: {
-		label: default
-	}
-}
-com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
-	default: { titleFont: KenneyPixel, background: grey, titleFontColor: black },
-	dialog: { titleFont: KenneyPixel, background: grey, titleFontColor: black, stageBackground: blue }
-}
 }
