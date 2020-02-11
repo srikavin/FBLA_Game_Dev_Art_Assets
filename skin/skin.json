@@ -40,8 +40,11 @@
       "font": "defaultFont"
     },
     "black": {
-      "font": "defaultFont",
+      "parent": "default",
       "fontColor": "black"
+    },
+    "menu": {
+      "font": "menuFont"
     }
   },
   "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
@@ -54,9 +57,20 @@
       "disabled": "grey_pressed"
     },
     "menu": {
-      "font": "defaultFont",
+      "font": "menuFont",
       "fontColor": "white",
       "down": "menu-button-checked-bg",
+      "over": "menu-button-over-bg",
+      "focused": "menu-button-bg",
+      "checked": "menu-button-checked-bg",
+      "checkedOver": "menu-button-checked-bg",
+      "checkedFocused": "menu-button-checked-bg"
+    },
+    "menu-death": {
+      "font": "defaultFont",
+      "fontColor": "white",
+      "up": "menu-button-checked-bg",
+      "down": "menu-button-bg",
       "over": "menu-button-over-bg",
       "focused": "menu-button-bg",
       "checked": "menu-button-checked-bg",

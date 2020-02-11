@@ -1,91 +1,625 @@
 { "frames": [
    {
-    "filename": "David 0.aseprite",
-    "frame": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "rotated": false,
-    "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
-    "duration": 100
+     "filename": "David 0.aseprite",
+     "frame": {
+       "x": 0,
+       "y": 0,
+       "w": 35,
+       "h": 50
+     },
+     "rotated": false,
+     "trimmed": false,
+     "spriteSourceSize": {
+       "x": 0,
+       "y": 0,
+       "w": 35,
+       "h": 50
+     },
+     "sourceSize": {
+       "w": 35,
+       "h": 50
+     },
+     "duration": 100
    },
-   {
+  {
     "filename": "David 1.aseprite",
-    "frame": { "x": 31, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 35,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   },
-   {
+  },
+  {
     "filename": "David 2.aseprite",
-    "frame": { "x": 62, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 70,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   },
-   {
+  },
+  {
     "filename": "David 3.aseprite",
-    "frame": { "x": 93, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 105,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   },
-   {
+  },
+  {
     "filename": "David 4.aseprite",
-    "frame": { "x": 124, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 140,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   },
-   {
+  },
+  {
     "filename": "David 5.aseprite",
-    "frame": { "x": 155, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 175,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   },
-   {
+  },
+  {
     "filename": "David 6.aseprite",
-    "frame": { "x": 186, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 210,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   },
-   {
+  },
+  {
     "filename": "David 7.aseprite",
-    "frame": { "x": 217, "y": 0, "w": 31, "h": 50 },
+    "frame": {
+      "x": 245,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
     "rotated": false,
     "trimmed": false,
-    "spriteSourceSize": { "x": 0, "y": 0, "w": 31, "h": 50 },
-    "sourceSize": { "w": 31, "h": 50 },
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
     "duration": 100
-   }
- ],
+  },
+  {
+    "filename": "David 8.aseprite",
+    "frame": {
+      "x": 280,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 9.aseprite",
+    "frame": {
+      "x": 315,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 10.aseprite",
+    "frame": {
+      "x": 350,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 11.aseprite",
+    "frame": {
+      "x": 385,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 12.aseprite",
+    "frame": {
+      "x": 420,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 13.aseprite",
+    "frame": {
+      "x": 455,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 14.aseprite",
+    "frame": {
+      "x": 490,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 15.aseprite",
+    "frame": {
+      "x": 525,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 16.aseprite",
+    "frame": {
+      "x": 560,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 17.aseprite",
+    "frame": {
+      "x": 595,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 18.aseprite",
+    "frame": {
+      "x": 630,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 19.aseprite",
+    "frame": {
+      "x": 665,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 20.aseprite",
+    "frame": {
+      "x": 700,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 21.aseprite",
+    "frame": {
+      "x": 735,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 22.aseprite",
+    "frame": {
+      "x": 770,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 23.aseprite",
+    "frame": {
+      "x": 805,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 24.aseprite",
+    "frame": {
+      "x": 840,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  },
+  {
+    "filename": "David 25.aseprite",
+    "frame": {
+      "x": 875,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": {
+      "x": 0,
+      "y": 0,
+      "w": 35,
+      "h": 50
+    },
+    "sourceSize": {
+      "w": 35,
+      "h": 50
+    },
+    "duration": 100
+  }
+],
  "meta": {
-  "app": "http://www.aseprite.org/",
-  "version": "1.2.13-x64",
-  "image": "David.png",
-  "format": "RGBA8888",
-  "size": { "w": 248, "h": 50 },
-  "scale": "1",
-  "frameTags": [
-   { "name": "Walk", "from": 0, "to": 3, "direction": "forward" },
-   { "name": "Jump", "from": 4, "to": 5, "direction": "forward" },
-   { "name": "Stand", "from": 6, "to": 7, "direction": "forward" }
-  ],
-  "layers": [
-   { "name": "Layer 1", "opacity": 255, "blendMode": "normal" }
+   "app": "http://www.aseprite.org/",
+   "version": "1.2.13-x64",
+   "image": "David.png",
+   "format": "RGBA8888",
+   "size": {
+     "w": 910,
+     "h": 50
+   },
+   "scale": "1",
+   "frameTags": [
+     {
+       "name": "Walk",
+       "from": 0,
+       "to": 3,
+       "direction": "forward"
+     },
+     {
+       "name": "Jump",
+       "from": 4,
+       "to": 5,
+       "direction": "forward"
+     },
+     {
+       "name": "Stand",
+       "from": 6,
+       "to": 7,
+       "direction": "forward"
+     },
+     {
+       "name": "Death",
+       "from": 8,
+       "to": 22,
+       "direction": "forward"
+     },
+     {
+       "name": "Damage",
+       "from": 23,
+       "to": 25,
+       "direction": "forward"
+     }
+   ],
+   "layers": [
+     {
+       "name": "Layer 1",
+       "opacity": 255,
+       "blendMode": "normal"
+     }
   ],
   "slices": [
   ]
