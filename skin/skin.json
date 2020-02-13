@@ -45,6 +45,11 @@
     },
     "menu": {
       "font": "menuFont"
+    },
+    "tooltip": {
+      "parent": "menu",
+      "font": "menuFont",
+      "fontColor": "white"
     }
   },
   "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
@@ -80,7 +85,8 @@
   },
   "com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle": {
     "default": {
-      "label": "default"
+      "label": "tooltip",
+      "background": "menu-button-bg"
     }
   },
   "com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {

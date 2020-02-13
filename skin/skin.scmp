@@ -1398,6 +1398,36 @@ jsonData: {
 				deletable: true
 				parent: null
 			}
+			{
+				class: com.ray3k.skincomposer.data.StyleData
+				name: tooltip
+				clazz: com.badlogic.gdx.scenes.scene2d.ui.Label
+				properties: {
+					font: {
+						class: com.ray3k.skincomposer.data.StyleProperty
+						type: com.badlogic.gdx.graphics.g2d.BitmapFont
+						name: font
+						optional: false
+						value: menuFont
+					}
+					fontColor: {
+						class: com.ray3k.skincomposer.data.StyleProperty
+						type: com.badlogic.gdx.graphics.Color
+						name: fontColor
+						optional: true
+						value: white
+					}
+					background: {
+						class: com.ray3k.skincomposer.data.StyleProperty
+						type: com.badlogic.gdx.scenes.scene2d.utils.Drawable
+						name: background
+						optional: true
+						value: null
+					}
+				}
+				deletable: true
+				parent: menu
+			}
 		]
 		com.badlogic.gdx.scenes.scene2d.ui.List: [
 			{
@@ -2481,14 +2511,14 @@ jsonData: {
 						type: com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle
 						name: label
 						optional: false
-						value: default
+						value: tooltip
 					}
 					background: {
 						class: com.ray3k.skincomposer.data.StyleProperty
 						type: com.badlogic.gdx.scenes.scene2d.utils.Drawable
 						name: background
 						optional: true
-						value: null
+						value: menu-button-bg
 					}
 					wrapWidth: {
 						class: com.ray3k.skincomposer.data.StyleProperty
